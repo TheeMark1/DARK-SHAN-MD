@@ -42,7 +42,7 @@ const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter")
 cmd({
             pattern: "join",
             desc: "joins group by link",
-            category: "owner",
+            category: "Bot owner",
             use: '<group link.>',
         },
         async(Void, citel, text,{ isCreator }) => {
